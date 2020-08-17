@@ -14,12 +14,10 @@ public class CameraController : MonoBehaviour
     public Transform Offset;
     void Start()
     {
-        Offset = player.transform.GetChild(0);
+        
     }
     private void LateUpdate()
     {
-        
-
         if(_mode == Define.CameraMode.QuaterView)
         {
             RaycastHit hit;

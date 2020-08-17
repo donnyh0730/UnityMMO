@@ -331,6 +331,8 @@ GameObject:
   - component: {fileID: 857359205}
   - component: {fileID: 857359204}
   - component: {fileID: 857359203}
+  - component: {fileID: 857359208}
+  - component: {fileID: 857359207}
   m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
@@ -412,6 +414,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &857359207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857359202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50a8019611b09244be69190f47dda9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &857359208
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857359202}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f55b2fff086acbe48a026153179e77ad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &963194229 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5067198595263406801, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
@@ -606,12 +639,12 @@ PrefabInstance:
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
@@ -621,22 +654,22 @@ PrefabInstance:
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2588191
+      value: 0.35355338
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.35355338
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.1464466
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9659258
+      value: 0.8535535
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
@@ -646,12 +679,12 @@ PrefabInstance:
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 30
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406800, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
@@ -666,7 +699,7 @@ PrefabInstance:
     - target: {fileID: 5067198595263406801, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: _delta.y
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406801, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
@@ -678,6 +711,11 @@ PrefabInstance:
       propertyPath: Offset
       value: 
       objectReference: {fileID: 108299669}
+    - target: {fileID: 5067198595263406801, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
+        type: 3}
+      propertyPath: _delta.x
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5067198595263406805, guid: 1034d1264dbe0b8449e5b3c28ec1e0a0,
         type: 3}
       propertyPath: m_Name

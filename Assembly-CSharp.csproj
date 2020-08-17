@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Managers\ResourceManager.cs" />
     <Compile Include="Assets\Scripts\Utils\Define.cs" />
     <Compile Include="Assets\TestCollision.cs" />
+    <Compile Include="Assets\TestEvent.cs" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\Resources\Art\UnityChan\Shader\Unitychan_chara_hair_ds.shader" />
@@ -609,31 +610,31 @@
       <HintPath>C:/Program Files/Unity/2019.4.2f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/donny/Desktop/Unity_MMO/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/donny/Documents/UnityProjects/Unity_MMO/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
